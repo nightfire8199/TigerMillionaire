@@ -8,6 +8,18 @@ def _initialise():
     plugins.register_handler(_watch_for_geodata, type="message", priority=50)
     plugins.register_user_command(["location"])
 
+def isLabel(bot, uID, label):
+    if bot.memory.exists(['location',uID,label]):
+        return True
+    else
+        return False
+
+def getLoc(bot, uID, label):
+    if not bot.memory.exists(['location',uID,label]):
+        return ""
+    else:
+        return bot.memory.get_by_path(['location', uID]).get(label)
+
 @asyncio.coroutine
 def _watch_for_geodata(bot, event, command):
     if event.user.is_self:
