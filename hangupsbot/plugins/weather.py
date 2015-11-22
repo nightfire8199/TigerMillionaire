@@ -1,3 +1,4 @@
+#weather
 import logging
 import plugins
 import requests
