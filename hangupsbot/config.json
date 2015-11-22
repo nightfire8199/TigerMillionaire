@@ -1,14 +1,41 @@
 {
   "admins": [
+     "113514381397713052155",
+     "110733544004272398927"
   ],
   "autoreplies_enabled": true,
   "autoreplies": [
     [
       [
-        "hi bot",
-        "hello bot"
+        "hi tmil",
+        "hello tmil",
+	"hey tmil"
       ],
-      "Hello world!"
+      "Hi"
+    ],
+    [
+      [
+        "good morning tmil"
+      ],
+        "Good Morning"
+    ],
+    [
+    [
+        "good evening tmil"
+    ],
+        "Good Evening"
+    ],
+    [
+      [
+	"regex:[[1-9]+]"
+      ],
+      "Yeeeeee"
+    ],
+    [
+     [
+	"regex:ooo+h"
+     ],
+     "Ahhhhh!"
     ]
   ],
   "cleverbot_percentage_replies": "0",
@@ -44,6 +71,16 @@
     "synced_conversations": ["CONV_ID_1", "CONV_ID_2"]
     }
   ],
+  "spotify": {
+    "soundcloud": "fab4334abba52a93e6e700ecf527d746",
+    "spotify": {
+      "client_id": "c422fc44449749bdb4a49ff15b9a3c67",
+      "client_secret": "7e0f96817eab4b288d898a2ddc1c48fc",
+      "redirect_uri": "http://www.audimusobscura.com",
+      "user": "tigermillionaire1515@gmail.com"
+    },
+    "youtube": "AIzaSyCqOwgqz9NAUMEscv0nssluOVJAJqqq3Y4"
+  },
   "spreadsheet_enabled": false,
   "spreadsheet_url": "INSERT_PUBLIC_URL_OF_GSHEET_HERE",
   "strict_botkeeper_check": false,
